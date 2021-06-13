@@ -8,7 +8,7 @@ In this activity we used multiple regression to predict the mpg of MechaCar prot
 
 <img width="626" alt="Screen Shot 2021-06-13 at 2 47 19 PM" src="https://user-images.githubusercontent.com/79885849/121819731-edd98080-cc4b-11eb-8145-2605d6833236.png">
 
-From our regression analysis, we can deduce the following:
+From our regression analysis we can tell that:
 
 Vehicle length, ground clearance are provide non-random amount of variance in the dataset which means these variables are significant in terms of their impact on mpg. There are other significant factors which have not been included in the model which is evidenced by the fact that the intercept is also significant.
 The p-value of this linear model is 5.35e-11, which is smaller than the assumed significance level of 0.05%. Therefore,it can be stated that there is sufficient evidence to reject our null hypothesis, which means that the slope of this linear model is not zero.
